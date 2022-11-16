@@ -1,0 +1,5 @@
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\publish\Connect4.exe
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\publish\Connect4.dll
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\publish\Connect4.deps.json
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\publish\Connect4.runtimeconfig.json
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\publish\Connect4.pdb

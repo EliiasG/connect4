@@ -1,0 +1,15 @@
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\Connect4.exe
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\Connect4.deps.json
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\Connect4.runtimeconfig.json
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\Connect4.dll
+D:\Projects\Git\connect4\Connect4\bin\Release\net6.0\Connect4.pdb
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.csproj.AssemblyReference.cache
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.AssemblyInfoInputs.cache
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.AssemblyInfo.cs
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.csproj.CoreCompileInputs.cache
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.dll
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\refint\Connect4.dll
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.pdb
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\Connect4.genruntimeconfig.cache
+D:\Projects\Git\connect4\Connect4\obj\Release\net6.0\ref\Connect4.dll
