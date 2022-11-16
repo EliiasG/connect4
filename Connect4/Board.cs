@@ -99,16 +99,22 @@ namespace Connect4
             }
         }
 
-        public void TakeTurn(int col)
+        public int GetCol(int choice)
         {
             int pos = -1;
-            while (col >= 0)
+            while (choice >= 0)
             {
                 pos++;
                 if (pos >= Size) throw new ArgumentException("row must be <= GetMax()");
-                if (Tiles[pos, 0] == Player.None) --col;
+                if (Tiles[pos, 0] == Player.None) --choice;
             }
-            Tiles[pos, 0] = CurrentPlayer;
+            return pos;
+        }
+
+        public void TakeTurn(int col)
+        {
+            
+            Tiles[GetCol(col), 0] = CurrentPlayer;
             updateGravity();
             ++Round;
         }
