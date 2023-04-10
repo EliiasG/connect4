@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SBrYBkR1nDgG1mFSYer3HyWTcplRmItGx1u4GOQMDWA/pYkTc2U9eK9G06HTe1P+JSGoq/iHpS7o29YQ6o/k4Q==",
+  "dgSpecHash": "gPS19Wljr+vs8Jw7xLySlpdR7K7P6dizBpThv+sU++pXbttgq7B3PqX6cVErdX4oqqA8TTI7tYrduM39OOWP6A==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
+  "projectFilePath": "C:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

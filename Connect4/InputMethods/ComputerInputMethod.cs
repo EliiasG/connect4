@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Connect4.InputMethods
+﻿namespace Connect4.InputMethods
 {
     internal class ComputerInputMethod : IInputMethod
     {
@@ -28,18 +22,18 @@ namespace Connect4.InputMethods
             Board sim = new Board(Board);
             int bestInd = 0;
             int bestRes = 0;
-            for (int i = 0; i < Board.MaxChoice; i++)
+            for (int i = 0; i < Board.MaxChoice + 1; i++)
             {
                 int res = 0;
                 for (int j = 0; j < PredictionAmount; j++)
                 {
                     if (simulateGame(sim, Board, i, random)) ++res;
-                    Console.Write("\r" + firstPart + " " + (i*PredictionAmount+j)*100/Board.MaxChoice/PredictionAmount + "%");
+                    Console.Write("\r" + firstPart + " " + (i * PredictionAmount + j) * 100 / (Board.MaxChoice + 1) / PredictionAmount + "%");
                 }
-                if (res > bestRes) 
+                if (res > bestRes)
                 {
                     bestRes = res;
-                    bestInd= i;
+                    bestInd = i;
                 }
             }
             return bestInd;
@@ -51,7 +45,7 @@ namespace Connect4.InputMethods
             while (sim.WinningPlayer == Player.None && !sim.IsTied)
             {
                 sim.TakeTurn(choice);
-                choice = rnd.Next(sim.MaxChoice);
+                choice = rnd.Next(sim.MaxChoice + 1);
             }
             return sim.WinningPlayer == Player;
         }

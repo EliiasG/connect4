@@ -1,20 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj": {}
+    "C:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj": {
+    "C:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
+        "projectUniqueName": "C:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
         "projectName": "Connect4",
-        "projectPath": "D:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
+        "projectPath": "C:\\Projects\\Git\\connect4\\Connect4\\Connect4.csproj",
         "packagesPath": "C:\\Users\\egrun\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Git\\connect4\\Connect4\\obj\\",
+        "outputPath": "C:\\Projects\\Git\\connect4\\Connect4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\egrun\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\egrun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\egrun\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
